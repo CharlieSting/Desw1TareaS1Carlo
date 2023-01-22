@@ -1,0 +1,19 @@
+{
+  "name": "desw1tareas1carlo",
+  "version": "1.0.0",
+  "description": "TareaSemana1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CharlieSting/Desw1TareaS1Carlo.git"
+  },
+  "author": "Carlos Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CharlieSting/Desw1TareaS1Carlo/issues"
+  },
+  "homepage": "https://github.com/CharlieSting/Desw1TareaS1Carlo#readme"
+}
