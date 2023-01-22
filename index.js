@@ -8,7 +8,13 @@ var fs = require('fs');
 
 http.createServer(function (req, res) {
     var q = url.parse(req.url, true);
+    var datos = q.query;
+    var mensaje="Sea bienvenido a este sitio de node js";
+    res.writeHead(200, { 'Content-Type': 'text/html' });
+    res.write(mensaje +":"+ datos.usuario);
     
+    res.end();
 
-//ejemplo
-//http://localhost?num1=7&num2=1&num3=1&num4=hola*/
+}).listen(3030);
+
+// http://localhost:3030/?usuario=Carloa82891821

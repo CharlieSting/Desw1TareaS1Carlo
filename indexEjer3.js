@@ -12,12 +12,14 @@ http.createServer( function(req, res){
     let result = parseFloat(datos.num1) * parseFloat(datos.num2);
     res.write(datos.num1 + " x " + datos.num2 + " = " + result);
     res.write('<br>');
-    result = parseFloat(datos.num3) / parseFloat(datos.num4);
-    res.write(datos.num3 + " / " + datos.num4 + " = " + result);
+    result = parseFloat(datos.num1) / parseFloat(datos.num2);
+    res.write(datos.num1 + " / " + datos.num2 + " = " + result);
 
 
     res.end();
 
 }).listen(3030);
+
+//http://localhost:3030/?num1=3&num2=2
 
 

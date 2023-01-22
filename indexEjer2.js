@@ -18,6 +18,8 @@ http.createServer( function(req, res){
 
 }).listen(3030);
 
+//http://localhost:3030/?num1=3
+
 
 
 
